@@ -1,0 +1,5 @@
+https://ria.ru/export/rss2/archive/index.xml
+https://lenta.ru/rss
+https://rg.ru/xml/index.xml
+https://feeds.bbci.co.uk/news/politics/rss.xml
+https://www.euronews.com/rss

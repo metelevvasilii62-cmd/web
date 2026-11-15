@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Новостной агрегатор: политика и право. Свежие новости из проверенных источников.">
+<title>Политика и право — новостной агрегатор</title>
+<style>
+  :root {
+    --bg: #F4F5F7;
+    --surface: #FFFFFF;
+    --text: #0F1B2D;
+    --muted: #5A6678;
+    --line: #D8DDE5;
+    --accent: #9B1C2E;
+    --accent-soft: rgba(155, 28, 46, 0.08);
+    --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: Georgia, "PT Serif", "Noto Serif", serif;
+    --radius: 6px;
+    --max-layout: 1160px;
+    --max-feed: 720px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0D1320;
+      --surface: #141C2B;
+      --text: #E8EDF6;
+      --muted: #97A3B8;
+      --line: #26324A;
+      --accent: #E07A86;
+      --accent-soft: rgba(224, 122, 134, 0.14);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  [hidden] { display: none !important; }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .container {
+    max-width: var(--max-layout);
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* ---------- Шапка ---------- */
+
+  .site-header { border-bottom: 1px solid var(--line); }
+
+  .header-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 34px;
+    padding-bottom: 24px;
+  }
+
+  .overline {
+    margin: 0 0 8px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+
+  .site-title {
+    margin: 0 0 8px;
+    font-family: var(--serif);
+    font-size: clamp(28px, 6vw, 38px);
+    line-height: 1.15;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .lede {
+    margin: 0;
+    max-width: 46ch;
+    font-size: 16px;
+    color: var(--muted);
+  }
+
+  .updated {
+    flex-shrink: 0;
+    padding-left: 20px;
+    border-left: 2px solid var(--line);
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .updated-value {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  /* ---------- Раскладка ---------- */
+
+  .layout {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+    max-width: var(--max-layout);
+    margin: 0 auto;
+    padding: 26px 20px 48px;
+  }
+
+  .sidebar { position: sticky; top: 20px; }
+
+  .feed-wrap {
+    min-width: 0;
+    max-width: var(--max-feed);
+  }
+
+  /* ---------- Боковая панель ---------- */
+
+  .filters {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+
+  .filters summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .filters summary::-webkit-details-marker { display: none; }
+
+  .filters summary::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid var(--muted);
+    border-bottom: 2px solid var(--muted);
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+  }
+
+  .filters[open] summary::after { transform: rotate(225deg); }
+
+  .filters-body {
+    display: grid;
+    gap: 12px;
+    padding: 0 12px 12px;
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 14px 10px;
+  }
+
+  .panel-title {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 9px 12px;
+    font: inherit;
+    font-size: 14px;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+
+  .search-input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    border-color: transparent;
+  }
+
+  .row-list { display: grid; gap: 2px; }
+
+  .source-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 7px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .source-row:hover { background: var(--accent-soft); }
+
+  .source-row.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+    box-shadow: inset 2px 0 0 var(--accent);
+  }
+
+  .source-count {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  /* ---------- Лента: дни и шкала времени ---------- */
+
+  .day-group { margin-bottom: 8px; }
+
+  .day-heading {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 30px 0 4px;
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .day-group:first-child .day-heading { margin-top: 6px; }
+
+  .day-year {
+    font-family: var(--sans);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .day-heading.today .day-num { color: var(--accent); }
+
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    bottom: 12px;
+    width: 2px;
+    background: var(--line);
+  }
+
+  .news-item {
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 18px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .news-item:first-child { border-top: 0; }
+
+  .rail { position: relative; }
+
+  .rail-dot {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--src-color, var(--accent));
+  }
+
+  .rail-time {
+    display: block;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.3;
+    color: var(--muted);
+  }
+
+  .news-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .news-source { font-weight: 600; color: var(--text); }
+
+  .news-title {
+    margin: 0 0 8px;
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+
+  .news-title a {
+    color: var(--text);
+    text-decoration: none;
+    overflow-wrap: break-word;
+    transition: color 0.15s ease;
+  }
+
+  .news-title a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .excerpt-wrap { margin: 0 0 10px; }
+
+  .excerpt-text {
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text);
+    overflow-wrap: break-word;
+  }
+
+  .excerpt-wrap.collapsed .excerpt-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .news-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font: inherit;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 7px 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .btn-original {
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .btn-original:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .load-more {
+    margin: 26px 0 6px;
+    text-align: center;
+  }
+
+  .feed-status {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .btn-load { min-width: 240px; padding: 10px 18px; }
+
+  .feed-empty {
+    padding: 48px 0;
+    text-align: center;
+    color: var(--muted);
+  }
+
+  .feed-empty-text {
+    margin: 0 0 14px;
+    font-size: 16px;
+  }
+
+  /* ---------- Подвал ---------- */
+
+  .site-footer { border-top: 1px solid var(--line); }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px 24px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 34px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .footer-inner p { margin: 0; }
+
+  .footer-contact a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .footer-contact a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* ---------- Адаптив ---------- */
+
+  @media (max-width: 900px) {
+    .layout {
+      grid-template-columns: 1fr;
+      gap: 22px;
+      padding: 20px 16px 40px;
+    }
+    .sidebar { position: static; }
+  }
+
+  @media (max-width: 700px) {
+    .header-inner {
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 24px;
+      padding-bottom: 18px;
+    }
+    .updated {
+      padding-left: 0;
+      border-left: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="header-brand">
+      <p class="overline">Новостной агрегатор</p>
+      <h1 class="site-title">Политика и право</h1>
+      <p class="lede">Свежие материалы по политике и праву из проверенных источников — последние 72 часа.</p>
+    </div>
+    <p class="updated">Обновлено: <span class="updated-value">__UPDATED__</span> (МСК)</p>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="sidebar">
+    <details class="filters" id="filters" open>
+      <summary>Фильтры</summary>
+      <div class="filters-body">
+        <section class="panel">
+          <h2 class="panel-title">Поиск</h2>
+          <label class="visually-hidden" for="search-input">Поиск по новостям</label>
+          <input class="search-input" id="search-input" type="search" placeholder="Поиск по новостям…" autocomplete="off">
+        </section>
+        <section class="panel">
+          <h2 class="panel-title">Язык</h2>
+          <div class="row-list" id="lang-list"></div>
+        </section>
+        <section class="panel">
+          <h2 class="panel-title">Источники</h2>
+          <div class="row-list" id="source-list"></div>
+        </section>
+      </div>
+    </details>
+  </aside>
+
+  <div class="feed-wrap">
+    <section class="feed" id="feed" aria-label="Лента новостей"></section>
+    <div class="load-more" id="load-more" hidden>
+      <p class="feed-status" id="feed-status"></p>
+      <button class="btn btn-load" id="btn-load" type="button">Показать ещё</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-note">Новостные материалы принадлежат их правообладателям. Все права защищены.</p>
+    <p class="footer-contact">Связь: <a href="mailto:your@email.com">your@email.com</a></p>
+  </div>
+</footer>
+
+<noscript>
+  <p style="padding: 16px 20px; text-align: center;">Для показа ленты нужен JavaScript.</p>
+</noscript>
+
+<script id="news-data" type="application/json">__NEWS_JSON__</script>
+<script>
+(function () {
+  "use strict";
+
+  var dataEl = document.getElementById("news-data");
+  var NEWS = [];
+  if (dataEl) {
+    try { NEWS = JSON.parse(dataEl.textContent) || []; } catch (e) { NEWS = []; }
+  }
+
+  var PAGE_SIZE = 40;
+  var MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+  var SOURCE_NAMES = {
+    "ria.ru": "РИА Новости",
+    "lenta.ru": "Lenta.ru",
+    "rg.ru": "Российская газета",
+    "feeds.bbci.co.uk": "BBC News",
+    "bbc.co.uk": "BBC News",
+    "euronews.com": "Euronews"
+  };
+  var SOURCE_COLORS = {
+    "ria.ru": "#B23A48",
+    "lenta.ru": "#9A6B2F",
+    "rg.ru": "#2F6B5E",
+    "feeds.bbci.co.uk": "#33507E",
+    "bbc.co.uk": "#33507E",
+    "euronews.com": "#7A4E8C"
+  };
+  var FALLBACK_COLOR = "#9B1C2E";
+
+  var state = { query: "", lang: "", source: null };
+  var visibleCount = PAGE_SIZE;
+
+  function createEl(tag, className, text) {
+    var el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text != null) el.textContent = text;
+    return el;
+  }
+
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+
+  function parseTime(t) {
+    var d = new Date(t);
+    return isNaN(d.getTime()) ? null : d;
+  }
+
+  // Московское время (UTC+3): сдвиг считаем вручную, без библиотек.
+  function mskDate(t) {
+    var d = parseTime(t);
+    return d ? new Date(d.getTime() + 3 * 3600 * 1000) : null;
+  }
+
+  function timeHM(t) {
+    var d = mskDate(t);
+    return d ? pad(d.getUTCHours()) + ":" + pad(d.getUTCMinutes()) : "";
+  }
+
+  function dayKey(t) {
+    var d = mskDate(t);
+    return d ? d.toISOString().slice(0, 10) : "";
+  }
+
+  function isToday(key) {
+    var n = new Date(Date.now() + 3 * 3600 * 1000);
+    return key === n.toISOString().slice(0, 10);
+  }
+
+  function sourceName(s) {
+    return SOURCE_NAMES[s] || String(s || "").replace(/^www\./, "");
+  }
+
+  function sourceColor(s) {
+    return SOURCE_COLORS[s] || FALLBACK_COLOR;
+  }
+
+  function langOf(n) {
+    return /[А-Яа-яЁё]/.test(n.title || "") ? "ru" : "en";
+  }
+
+  function langLabel(l) {
+    return l === "ru" ? "Русский" : l === "en" ? "English" : l;
+  }
+
+  function byTimeDesc(a, b) {
+    return String(b.time || "").localeCompare(String(a.time || ""));
+  }
+
+  function getFiltered() {
+    var q = state.query.trim().toLowerCase();
+    return NEWS.filter(function (n) {
+      if (state.lang && langOf(n) !== state.lang) return false;
+      if (state.source && n.source !== state.source) return false;
+      if (q) {
+        var hay = ((n.title || "") + " " + (n.excerpt || "") + " " + sourceName(n.source)).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderSources() {
+    var list = document.getElementById("source-list");
+    if (!list) return;
+    list.replaceChildren();
+    var counts = {};
+    NEWS.forEach(function (n) {
+      var s = n.source || "";
+      counts[s] = (counts[s] || 0) + 1;
+    });
+    Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; }).forEach(function (s) {
+      var row = createEl("button", "source-row");
+      row.type = "button";
+      row.setAttribute("aria-pressed", String(state.source === s));
+      if (state.source === s) row.classList.add("active");
+      row.appendChild(createEl("span", "source-name", sourceName(s)));
+      row.appendChild(createEl("span", "source-count", String(counts[s])));
+      row.addEventListener("click", function () {
+        state.source = state.source === s ? null : s;
+        visibleCount = PAGE_SIZE;
+        renderAll();
+      });
+      list.appendChild(row);
+    });
+  }
+
+  function renderLanguages() {
+    var list = document.getElementById("lang-list");
+    if (!list) return;
+    list.replaceChildren();
+    var counts = {};
+    NEWS.forEach(function (n) {
+      var l = langOf(n);
+      counts[l] = (counts[l] || 0) + 1;
+    });
+    Object.keys(counts).sort().forEach(function (l) {
+      var row = createEl("button", "source-row");
+      row.type = "button";
+      row.setAttribute("aria-pressed", String(state.lang === l));
+      if (state.lang === l) row.classList.add("active");
+      row.appendChild(createEl("span", "source-name", langLabel(l)));
+      row.appendChild(createEl("span", "source-count", String(counts[l])));
+      row.addEventListener("click", function () {
+        state.lang = state.lang === l ? "" : l;
+        visibleCount = PAGE_SIZE;
+        renderAll();
+      });
+      list.appendChild(row);
+    });
+  }
+
+  function renderNewsItem(n) {
+    var li = createEl("li", "news-item");
+    li.style.setProperty("--src-color", sourceColor(n.source));
+
+    var rail = createEl("div", "rail");
+    rail.appendChild(createEl("span", "rail-dot"));
+    var timeEl = createEl("time", "rail-time", timeHM(n.time));
+    timeEl.dateTime = n.time || "";
+    rail.appendChild(timeEl);
+
+    var article = createEl("article", "news-article");
+
+    var meta = createEl("div", "news-meta");
+    meta.appendChild(createEl("span", "news-source", sourceName(n.source)));
+
+    var h3 = createEl("h3", "news-title");
+    var a = createEl("a", "news-link", n.title || "");
+    a.href = n.link || "#";
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    h3.appendChild(a);
+
+    article.appendChild(meta);
+    article.appendChild(h3);
+
+    var excerpt = String(n.excerpt || "").trim();
+    var same = excerpt.toLowerCase() === String(n.title || "").trim().toLowerCase();
+    if (!same && excerpt) {
+      var wrap = createEl("div", "excerpt-wrap collapsed");
+      var p = createEl("p", "excerpt-text", excerpt);
+      var btn = createEl("button", "btn btn-more", "Подробнее");
+      btn.type = "button";
+      btn.setAttribute("aria-expanded", "false");
+      btn.addEventListener("click", function () {
+        var expanded = btn.getAttribute("aria-expanded") === "true";
+        var next = !expanded;
+        btn.setAttribute("aria-expanded", String(next));
+        btn.textContent = next ? "Свернуть" : "Подробнее";
+        wrap.classList.toggle("collapsed", !next);
+      });
+      wrap.appendChild(p);
+      wrap.appendChild(btn);
+      article.appendChild(wrap);
+    }
+
+    var actions = createEl("div", "news-actions");
+    var read = createEl("a", "btn-original", "Читать у источника →");
+    read.href = n.link || "#";
+    read.target = "_blank";
+    read.rel = "noopener noreferrer";
+    actions.appendChild(read);
+    article.appendChild(actions);
+
+    li.appendChild(rail);
+    li.appendChild(article);
+    return li;
+  }
+
+  function renderDayGroup(key, items) {
+    var section = createEl("section", "day-group");
+    var h2 = createEl("h2", "day-heading");
+    var d = parseInt(key.slice(8, 10), 10);
+    var m = parseInt(key.slice(5, 7), 10);
+    var y = parseInt(key.slice(0, 4), 10);
+    h2.appendChild(createEl("span", "day-num", String(d)));
+    h2.appendChild(document.createTextNode(" "));
+    h2.appendChild(createEl("span", "day-month", MONTHS[m - 1]));
+    h2.appendChild(document.createTextNode(" "));
+    h2.appendChild(createEl("span", "day-year", String(y)));
+    if (isToday(key)) h2.classList.add("today");
+    section.appendChild(h2);
+
+    var list = createEl("ol", "timeline");
+    items.forEach(function (n) { list.appendChild(renderNewsItem(n)); });
+    section.appendChild(list);
+    return section;
+  }
+
+  function renderFeed() {
+    var feed = document.getElementById("feed");
+    var loadWrap = document.getElementById("load-more");
+    var status = document.getElementById("feed-status");
+    if (!feed) return;
+
+    var items = getFiltered();
+    var visible = items.slice(0, visibleCount);
+    feed.replaceChildren();
+
+    if (!items.length) {
+      var empty = createEl("div", "feed-empty");
+      empty.appendChild(createEl("p", "feed-empty-text", "По этим фильтрам ничего не найдено."));
+      var clear = createEl("button", "btn", "Сбросить фильтры");
+      clear.type = "button";
+      clear.addEventListener("click", function () {
+        state.query = "";
+        state.lang = "";
+        state.source = null;
+        visibleCount = PAGE_SIZE;
+        var input = document.getElementById("search-input");
+        if (input) input.value = "";
+        renderAll();
+      });
+      empty.appendChild(clear);
+      feed.appendChild(empty);
+    } else {
+      var groups = [];
+      var map = {};
+      visible.forEach(function (n) {
+        var key = dayKey(n.time);
+        if (!key) return;
+        if (!map[key]) { map[key] = []; groups.push(key); }
+        map[key].push(n);
+      });
+      groups.forEach(function (key) { feed.appendChild(renderDayGroup(key, map[key])); });
+    }
+
+    if (loadWrap) {
+      var remaining = items.length - visible.length;
+      loadWrap.hidden = remaining <= 0;
+      if (status) status.textContent = remaining > 0 ? "Показано " + visible.length + " из " + items.length : "";
+    }
+  }
+
+  function renderAll() {
+    renderSources();
+    renderLanguages();
+    renderFeed();
+  }
+
+  function init() {
+    var filters = document.getElementById("filters");
+    if (filters && window.matchMedia("(max-width: 900px)").matches) {
+      filters.removeAttribute("open");
+    }
+    var input = document.getElementById("search-input");
+    if (input) {
+      input.addEventListener("input", function () {
+        state.query = input.value || "";
+        visibleCount = PAGE_SIZE;
+        renderFeed();
+      });
+    }
+    var btn = document.getElementById("btn-load");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        visibleCount += PAGE_SIZE;
+        renderFeed();
+      });
+    }
+    renderAll();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+</body>
+</html>

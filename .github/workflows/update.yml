@@ -1,0 +1,48 @@
+name: Update news
+
+on:
+  schedule:
+    # Каждые 30 минут (время GitHub — UTC).
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+# Токен по умолчанию GITHUB_TOKEN — ключей и паролей в репозитории нет.
+permissions:
+  contents: write
+
+# Одновременно может работать только один запуск; новый отменяет застрявший.
+concurrency:
+  group: update-news
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch news
+        run: python aggregator.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html data/news.json
+          if git diff --cached --quiet; then
+            echo "Изменений нет — коммит не нужен."
+          else
+            git commit -m "Обновление новостей"
+            git push
+          fi
