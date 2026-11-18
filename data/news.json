@@ -1,10 +1,633 @@
 [
   {
+    "title": "Council wins legal fight over flags on lamp-posts",
+    "source": "feeds.bbci.co.uk",
+    "time": "2026-11-18T17:28:48+00:00",
+    "link": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
+    "excerpt": "The decision has been made this afternoon by the High Court in Birmingham."
+  },
+  {
+    "title": "Фицо назвал ложью сообщения о якобы причастности его сына к отмыванию денег",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:27:35+00:00",
+    "link": "https://ria.ru/20261118/premer-2132500214.html",
+    "excerpt": "Фицо назвал ложью сообщения о якобы причастности его сына к отмыванию денег"
+  },
+  {
+    "title": "Эстонский парламент в первом чтении одобрил законопроект о закрытии границы с РФ",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:26:01+00:00",
+    "link": "https://rg.ru/2026/11/18/deputaty-estonskogo-parlamenta-v-pervom-chtenii-odobrili-zakonoproekt-o-zakrytii-granicy-s-rf.html",
+    "excerpt": "Депутаты Рийгикогу (парламента Эстонии) в первом чтении одобрили законопроект о закрытии государственной границы с Россией. Инициаторами документа выступили представители консервативной партии \"Отечество\" (Isamaa), сообщило эстонское гостелерадио…"
+  },
+  {
+    "title": "В российском ТЦ ввели карантин из-за африканской чумы свиней",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:25:18+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/v-rossiyskom-tts-vveli-karantin-iz-za-afrikanskoy-chumy-sviney/",
+    "excerpt": "В российском ТЦ ввели карантин из-за африканской чумы свиней"
+  },
+  {
+    "title": "В деле о расправе над россиянкой в морге нашли сходство с историей смерти Майкла Джексона",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:24:59+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/v-dele-o-rasprave-nad-rossiyankoy-v-morge-nashli-shodstvo-s-istoriey-smerti-maykla-dzheksona/",
+    "excerpt": "В деле о расправе над россиянкой в морге нашли сходство с историей смерти Майкла Джексона"
+  },
+  {
+    "title": "Former Macron ally Philippe unveils conservative agenda as French centre and right loses ground",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:23:41+00:00",
+    "link": "https://www.euronews.com/2026/11/18/former-macron-ally-philippe-unveils-conservative-agenda-as-french-centre-and-right-loses-g",
+    "excerpt": "Socialist, centrist and conservative candidates have been struggling to gain ground ahead of France's presidential elections, amid a race dominated by the hard left and far-right."
+  },
+  {
+    "title": "Путин прилетел в Китай с ядерным чемоданчиком и поговорил с Си Цзиньпином. Что обсудили политики перед встречей с Трампом?",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:22:36+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/long-putin-priletel-v-kitay-s-yadernym-chemodanchikom-i-pogovoril-s-si-tszinpinom-chto-obsudili-politiki-pered-vstrechey-s-trampom/",
+    "excerpt": "Путин прилетел в Китай с ядерным чемоданчиком и поговорил с Си Цзиньпином. Что обсудили политики перед встречей с Трампом?"
+  },
+  {
+    "title": "Самолет финской погранохраны пролетел вблизи морской границы России",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:22:01+00:00",
+    "link": "https://ria.ru/20261118/samolet-2132499901.html",
+    "excerpt": "Самолет финской погранохраны пролетел вблизи морской границы России"
+  },
+  {
+    "title": "French broadcaster faces backlash after revealing feminist guest's marriage live on air",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:21:27+00:00",
+    "link": "https://www.euronews.com/2026/11/18/french-broadcaster-faces-backlash-after-revealing-feminist-guests-marriage-live-on-air",
+    "excerpt": "An activist criticised a French public broadcaster after a presenter revealed her marriage to a senior TV executive, sparking controversy over transparency rules and political reactions."
+  },
+  {
+    "title": "Ушаков ответил на слова Клинтон о встрече Путина, Си Цзиньпина и Трампа",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:21:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/ushakov-otvetil-na-slova-klinton-o-vstreche-putina-si-tszinpina-i-trampa/",
+    "excerpt": "Ушаков ответил на слова Клинтон о встрече Путина, Си Цзиньпина и Трампа"
+  },
+  {
+    "title": "Российская ПВО за день уничтожила 51 дрон ВСУ",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:20:36+00:00",
+    "link": "https://ria.ru/20261118/dron-2132499814.html",
+    "excerpt": "Российская ПВО за день уничтожила 51 дрон ВСУ"
+  },
+  {
+    "title": "Противоминный корабль \"Дмитрий Лысов\" вошел в состав ВМФ России",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:19:42+00:00",
+    "link": "https://ria.ru/20261118/korabl-2132499625.html",
+    "excerpt": "Противоминный корабль \"Дмитрий Лысов\" вошел в состав ВМФ России"
+  },
+  {
+    "title": "Росстат: Инфляция в РФ с 10 по 16 ноября составила 0,19%",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:19:22+00:00",
+    "link": "https://rg.ru/2026/11/18/rosstat-infliaciia-v-rf-s-10-po-16-noiabria-sostavila-019.html",
+    "excerpt": "С 10 по 16 ноября потребительские цены в России выросли на 0,19%. Неделей ранее, с 3 по 9 ноября, рост составлял 0,12%. С начала месяца цены прибавили 0,30%, а с начала года - 6,53%. Годовая инфляция на эту дату ускорилась до 7,07% с 6,97% на 9…"
+  },
+  {
+    "title": "No heating or AC needed in France's first housing building of its kind",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:17:54+00:00",
+    "link": "https://www.euronews.com/2026/11/18/no-heating-or-ac-needed-in-frances-first-housing-building-of-its-kind",
+    "excerpt": "French real estate company Nexity presented the first apartment building of its kind on Tuesday, which is designed to maintain an interior temperature between 20 °C and 26 °C without heating or air conditioning."
+  },
+  {
+    "title": "Экс-глава МИД Австрии резко раскритиковала Каллас как переговорщика от ЕС",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:17:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/eks-glava-mid-avstrii-rezko-raskritikovala-kallas-v-kachestve-peregovorschika-ot-es/",
+    "excerpt": "Экс-глава МИД Австрии резко раскритиковала Каллас как переговорщика от ЕС"
+  },
+  {
+    "title": "Верховный суд встал на сторону водителя в споре со страховой из-за условий каско",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:16:25+00:00",
+    "link": "https://rg.ru/2026/11/18/korobochka-s-siurprizom.html",
+    "excerpt": "У страховщиков появилось много удобных и дешевых вариантов страхования каско. Так называемое, коробочное страхование. Но оно может оказаться с подвохом. С одним из таких подвохов пришлось разбираться Верховному суду. В том числе изучать причины и…"
+  },
+  {
+    "title": "Архангельский Минздрав взял на контроль дело об убийстве женщины в морге",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:16:12+00:00",
+    "link": "https://ria.ru/20261118/patsientka-2132499248.html",
+    "excerpt": "Архангельский Минздрав взял на контроль дело об убийстве женщины в морге"
+  },
+  {
+    "title": "Боевики ВСУ разбрасывали в Артемовске заминированные шоколадки",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:15:15+00:00",
+    "link": "https://ria.ru/20261118/vsu-2132499048.html",
+    "excerpt": "Боевики ВСУ разбрасывали в Артемовске заминированные шоколадки"
+  },
+  {
+    "title": "Оперу о невесте Ивана Грозного впервые поставили в Нови-Саде",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:13:00+00:00",
+    "link": "https://ria.ru/20261118/premera-2132364268.html",
+    "excerpt": "Оперу о невесте Ивана Грозного впервые поставили в Нови-Саде"
+  },
+  {
+    "title": "Вышел трейлер фантастической драмы с Пачино и звездой \"Очень странных дел\"",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:10:11+00:00",
+    "link": "https://rg.ru/2026/11/18/vyshel-trejler-novogo-filma-s-alem-pachino-i-zvezdoj-ochen-strannyh-del.html",
+    "excerpt": "В Сети появился трейлер фантастической драмы \"Билли Найт\" (Billy Knight), главные роли в которой исполнили Аль Пачино и Чарли Хитон , известный по сериалу \"Очень странные дела\" (18+). Ролик представила компания Magenta Edge Films, которая выпустит…"
+  },
+  {
+    "title": "Заслуженный тренер оценил отказ украинской теннисистки Свитолиной пожать руку Андреевой",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:10:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/zasluzhennyy-trener-otsenil-otkaz-ukrainskoy-tennisistki-svitolinoy-pozhat-ruku-andreevoy/",
+    "excerpt": "Заслуженный тренер оценил отказ украинской теннисистки Свитолиной пожать руку Андреевой"
+  },
+  {
+    "title": "В Минске стартовала международная IT-олимпиада. Кто участвует?",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:10:00+00:00",
+    "link": "https://rg.ru/2026/11/18/tehnologii.html",
+    "excerpt": "В эти дни в Минске проходит Международная олимпиада по информационным технологиям Inter-IT-Challenge, в которой участвуют студенты Беларуси, России, Кыргызстана и Китая."
+  },
+  {
+    "title": "Правительство приняло соглашение о создании всемирной организации по ИИ",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:09:59+00:00",
+    "link": "https://ria.ru/20261118/ii-2132498809.html",
+    "excerpt": "Правительство приняло соглашение о создании всемирной организации по ИИ"
+  },
+  {
+    "title": "Гросси объяснил отказ назвать виновных в атаках на ЗАЭС",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:09:44+00:00",
+    "link": "https://ria.ru/20261118/magate-2132498599.html",
+    "excerpt": "Гросси объяснил отказ назвать виновных в атаках на ЗАЭС"
+  },
+  {
+    "title": "Lammy urges Burnham to take UK back into the EU",
+    "source": "feeds.bbci.co.uk",
+    "time": "2026-11-18T17:09:35+00:00",
+    "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
+    "excerpt": "The former deputy PM's intervention comes after Burnham reopened a debate over the UK's long-term future."
+  },
+  {
+    "title": "Летевший в Германию самолет сел в Сербии из-за аллергии стюардессы на кунжут",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:09:34+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/letevshiy-v-germaniyu-samolet-sel-v-serbii-iz-za-allergii-styuardessy-na-kunzhut/",
+    "excerpt": "Летевший в Германию самолет сел в Сербии из-за аллергии стюардессы на кунжут"
+  },
+  {
+    "title": "Для защиты нацпарков Калининградской области начали регулировать потоки туристов",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:07:59+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-szfo/dlia-zashchity-nacparkov-kaliningradskoj-oblasti-nachali-regulirovat-potoki-turistov.html",
+    "excerpt": "Национальные парки \"Куршская коса\" и \"Виштынецкий\" стали важными туристическими точками на карте Калининградской области. Только за прошлый год их суммарно посетили около 1,5 миллиона человек. Однако сейчас перед властями и администрациями…"
+  },
+  {
+    "title": "Ямпольская предложила формулу для продвижения русского языка за рубежом",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:05:55+00:00",
+    "link": "https://ria.ru/20261118/jampolskaja-2132498391.html",
+    "excerpt": "Ямпольская предложила формулу для продвижения русского языка за рубежом"
+  },
+  {
+    "title": "Стоимость бензина на АЗС снизилась в 21 регионе",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:05:42+00:00",
+    "link": "https://ria.ru/20261118/benzin-2132498215.html",
+    "excerpt": "Стоимость бензина на АЗС снизилась в 21 регионе"
+  },
+  {
+    "title": "Медведев: для победы над Алькарасом нужно провести идеальный матч",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:04:04+00:00",
+    "link": "https://ria.ru/20261118/medvedev-2132498075.html",
+    "excerpt": "Медведев: для победы над Алькарасом нужно провести идеальный матч"
+  },
+  {
+    "title": "Краснодарский край и РЦИС объединят усилия для развития креативной экономики",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:04:04+00:00",
+    "link": "https://rg.ru/2026/11/18/krasnodarskij-kraj-i-rcis-obediniat-usiliia-dlia-razvitiia-kreativnoj-ekonomiki.html",
+    "excerpt": "Администрация региона и Российский центр оборота прав на результаты творческой деятельности заключили соглашение, направленное на развитие творческого бизнеса и внедрение цифровых инструментов управления интеллектуальной собственностью."
+  },
+  {
+    "title": "Песков предложил не гадать о продолжительности встречи Путина и Трампа",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:03:12+00:00",
+    "link": "https://ria.ru/20261118/peskov-2132497902.html",
+    "excerpt": "Песков предложил не гадать о продолжительности встречи Путина и Трампа"
+  },
+  {
+    "title": "Предложенные Венгером новые правила офсайда будут отвергнуты, пишут СМИ",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:03:11+00:00",
+    "link": "https://ria.ru/20261118/futbol-2132497772.html",
+    "excerpt": "Предложенные Венгером новые правила офсайда будут отвергнуты, пишут СМИ"
+  },
+  {
+    "title": "Пашинян сделал заявление о стремлении Армении в НАТО",
+    "source": "lenta.ru",
+    "time": "2026-11-18T17:03:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/pashinyan-sdelal-zayavlenie-o-stremlenii-armenii-v-nato/",
+    "excerpt": "Пашинян сделал заявление о стремлении Армении в НАТО"
+  },
+  {
+    "title": "Бастрыкин потребовал доклад по делу врача, обвиняемого в убийстве пациентки",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:02:11+00:00",
+    "link": "https://ria.ru/20261118/vrach-2132497547.html",
+    "excerpt": "Бастрыкин потребовал доклад по делу врача, обвиняемого в убийстве пациентки"
+  },
+  {
+    "title": "Арбитра Молодежной футбольной лиги наказали на 10 лет за игру на ставках",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:01:53+00:00",
+    "link": "https://ria.ru/20261118/futbol-2132497430.html",
+    "excerpt": "Арбитра Молодежной футбольной лиги наказали на 10 лет за игру на ставках"
+  },
+  {
+    "title": "В Казани запустили первый в РФ онлайн-сервис для подработки дворником",
+    "source": "rg.ru",
+    "time": "2026-11-18T17:01:11+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-pfo/v-kazani-zapustili-pervyj-v-rf-onlajn-servis-dlia-podrabotki-dvornikom.html",
+    "excerpt": "В Казани появился онлайн-сервис позволяющий самозанятым найти подработку в сфере ЖКХ. Устроится дворником с удобным для себя графиком можно, что называется, не вставая с кровати и без собеседования."
+  },
+  {
+    "title": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:00:41+00:00",
+    "link": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+    "excerpt": "Ursula von der Leyen unveils a new joint-debt package for Kyiv, an unprecedented US-China-Russia trilateral summit unfolds at APEC, industry figures warn Europe cannot sleep through the AI revolution, and IEA chief Fatih Birol urges a faster shift…"
+  },
+  {
+    "title": "Designing Qatar’s new creative economy, from innovation hubs to incubation spaces",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:00:28+00:00",
+    "link": "https://www.euronews.com/2026/11/18/designing-qatars-new-creative-economy-from-innovation-hubs-to-incubation-spaces",
+    "excerpt": "Creativity is becoming part of Qatar’s economic vision. Beyond galleries and exhibition spaces, Qatar is investing in infrastructures designed to nurture creatives so that their concepts can turn into creation."
+  },
+  {
+    "title": "Latest news bulletin | November 18th, 2026 – Evening",
+    "source": "euronews.com",
+    "time": "2026-11-18T17:00:26+00:00",
+    "link": "https://www.euronews.com/video/2026/11/18/latest-news-bulletin-november-18th-2026-evening",
+    "excerpt": "Catch up with the most important stories from around Europe and beyond this November 18th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel."
+  },
+  {
+    "title": "Более 1,3 миллиона россиян посетили Таиланд за девять месяцев, заявил Путин",
+    "source": "ria.ru",
+    "time": "2026-11-18T17:00:00+00:00",
+    "link": "https://ria.ru/20261118/tailand-2132500566.html",
+    "excerpt": "Более 1,3 миллиона россиян посетили Таиланд за девять месяцев, заявил Путин"
+  },
+  {
+    "title": "Баскетболисты \"Локомотива-Кубани\" обыграли \"Уралмаш\"",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:59:20+00:00",
+    "link": "https://ria.ru/20261118/lokomotiv-kuban-2132497069.html",
+    "excerpt": "Баскетболисты \"Локомотива-Кубани\" обыграли \"Уралмаш\""
+  },
+  {
+    "title": "Новые войска: В России формируют подразделения беспилотных систем",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:59:08+00:00",
+    "link": "https://rg.ru/2026/11/18/v-polku-pribylo.html",
+    "excerpt": "С начала спецоперации высшей награды \"Золотой Звезды\" и звания Героя России удостоены более 700 военнослужащих, сообщил замминистра обороны РФ генерал армии Виктор Горемыкин. К госнаградам в то же время представлены более 1,2 млн человек,…"
+  },
+  {
+    "title": "В Перу объявили чрезвычайное положение из-за угрозы перебоев с топливом",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:58:52+00:00",
+    "link": "https://ria.ru/20261118/peru-2132496881.html",
+    "excerpt": "В Перу объявили чрезвычайное положение из-за угрозы перебоев с топливом"
+  },
+  {
+    "title": "На Транспортной неделе глава Мордовии поделился опытом развития семейного такси",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:58:20+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-pfo/na-transportnoj-nedele-glava-mordovii-podelilsia-opytom-razvitiia-semejnogo-taksi.html",
+    "excerpt": "На международном форуме \"Транспорт России\" в Москве глава Мордовии Артем Здунов поделился опытом создания семейного такси в республике. Комфортный сервис с доступными тарифами для перевозок пассажиров с детьми работает почти год и пользуется большим…"
+  },
+  {
+    "title": "В Чернигове при взрыве автомобиля с боеприпасами погибли майор и две девушки",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:58:06+00:00",
+    "link": "https://rg.ru/2026/11/18/v-chernigove-pri-vzryve-avtomobilia-s-boepripasami-pogibli-major-i-dve-devushki.html",
+    "excerpt": "Заместитель начальника погранкомендатуры 105-го погранотряда Госпогранслужбы Украины майор Валерий Сыч погиб в Чернигова при взрыве собственного автомобиля. Как сообщили РИА Новости в российских силовых структурах, подрыв произошел из-за…"
+  },
+  {
+    "title": "Ягр объяснил отсутствие официального заявления о завершении карьеры",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:57:54+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/yagr-ob-yasnil-otsutstvie-ofitsialnogo-zayavleniya-o-zavershenii-kariery/",
+    "excerpt": "Ягр объяснил отсутствие официального заявления о завершении карьеры"
+  },
+  {
+    "title": "EPP ready to suspend Vučić’s SNS party in December",
+    "source": "euronews.com",
+    "time": "2026-11-18T16:57:35+00:00",
+    "link": "https://www.euronews.com/2026/11/18/exclusive-epp-ready-to-suspend-vucics-sns-party-in-december",
+    "excerpt": "The party leadership will submit the proposal to the political assembly, where it is expected to secure approval. SNS could make a comeback, provided it meets certain conditions."
+  },
+  {
+    "title": "Waymo pulls driverless taxis off US highways after California ban",
+    "source": "euronews.com",
+    "time": "2026-11-18T16:55:30+00:00",
+    "link": "https://www.euronews.com/2026/11/18/waymo-pulls-driverless-taxis-off-us-highways-after-california-ban",
+    "excerpt": "Regulators called the robotaxis an \"imminent hazard\" after one tried to overtake police cars and three others drove into a live roadworks zone, just as the company prepares to expand into Europe."
+  },
+  {
+    "title": "Выдавать бумажные чеки покупателям станет необязательно в 2028 году",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:54:55+00:00",
+    "link": "https://rg.ru/2026/11/18/kassovyj-razryv.html",
+    "excerpt": "Кассиры с сентября 2028 года смогут не выдавать бумажный чек, если покупатель об этом не попросит. Такая норма прописана в поправках ко второму чтению законопроекта, входящего в бюджетный пакет, выяснила \"Российская газета\". Сейчас действуют строгие…"
+  },
+  {
+    "title": "Страна ЕС отказала в помощи Украине",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:54:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/strana-es-otkazala-v-pomoschi-ukraine/",
+    "excerpt": "Страна ЕС отказала в помощи Украине"
+  },
+  {
+    "title": "Рябков вручил почетному консулу России в Канаде грамоту президента",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:52:06+00:00",
+    "link": "https://ria.ru/20261118/gramota-2132496513.html",
+    "excerpt": "Рябков вручил почетному консулу России в Канаде грамоту президента"
+  },
+  {
+    "title": "Ямпольская предложила создать новые учебники по русскому как иностранному",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:52:01+00:00",
+    "link": "https://ria.ru/20261118/yazyk-2132496365.html",
+    "excerpt": "Ямпольская предложила создать новые учебники по русскому как иностранному"
+  },
+  {
+    "title": "ВМФ России получил «Дмитрия Лысова»",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:51:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/vmf-rossii-poluchil-dmitriya-lysova/",
+    "excerpt": "ВМФ России получил «Дмитрия Лысова»"
+  },
+  {
+    "title": "Раскрыты взаимоотношения Шурыгиной с сокамерницами в СИЗО",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:51:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/raskryty-vzaimootnosheniya-shuryginoy-s-sokamernitsami-v-sizo/",
+    "excerpt": "Раскрыты взаимоотношения Шурыгиной с сокамерницами в СИЗО"
+  },
+  {
+    "title": "Обманутой мошенниками пенсионерке отказались возвращать квартиру",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:51:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/obmanutoy-moshennikami-pensionerke-ne-vernuli-kvartiru/",
+    "excerpt": "Обманутой мошенниками пенсионерке отказались возвращать квартиру"
+  },
+  {
+    "title": "Раскрыто состояние пострадавших при атаке ВСУ на многоквартирный дом в Адыгее",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:48:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/raskryto-sostoyanie-postradavshih-pri-atake-vsu-na-mnogokvartirnyy-dom-v-adygee/",
+    "excerpt": "Раскрыто состояние пострадавших при атаке ВСУ на многоквартирный дом в Адыгее"
+  },
+  {
+    "title": "В Чернигове украинский майор-пограничник погиб при взрыве автомобиля",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:47:08+00:00",
+    "link": "https://ria.ru/20261118/pogranichnik-2132496165.html",
+    "excerpt": "В Чернигове украинский майор-пограничник погиб при взрыве автомобиля"
+  },
+  {
+    "title": "Капитан Америка расправился с коллегой и угнал машину",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:45:24+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/kapitan-amerika-raspravilsya-s-kollegoy-i-ugnal-mashinu/",
+    "excerpt": "Капитан Америка расправился с коллегой и угнал машину"
+  },
+  {
+    "title": "Украинский дизайнер в микрошортах пришла на зарубежную вечеринку",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:45:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/ukrainskiy-dizayner-v-mikroshortah-prishla-na-zarubezhnuyu-vecherinku/",
+    "excerpt": "Украинский дизайнер в микрошортах пришла на зарубежную вечеринку"
+  },
+  {
+    "title": "Стало известно о потери боеспособности батальоном ВСУ",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:45:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/stalo-izvestno-o-poteri-boesposobnosti-batalonom-vsu/",
+    "excerpt": "Стало известно о потери боеспособности батальоном ВСУ"
+  },
+  {
+    "title": "Поисковики нашли загадочный предмет в старом окопе России и озадачились",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:45:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/poiskoviki-v-rossii-nashli-zagadochnyy-predmet-v-starom-okope-i-ozadachilis/",
+    "excerpt": "Поисковики нашли загадочный предмет в старом окопе России и озадачились"
+  },
+  {
+    "title": "Опубликована \"Шэньчжэньская инициатива\" по итогам Делового саммита АТЭС",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:43:35+00:00",
+    "link": "https://rg.ru/2026/11/18/opublikovana-shenchzhenskaia-iniciativa-po-itogam-delovogo-sammita-ates.html",
+    "excerpt": "В китайском Шэньчжэне 18-19 ноября проходит саммит АТЭС , а накануне там же состоялся Деловой саммит АТЭС. По его результатам была подготовлена \"Шэньчжэньская инициатива\", которую обнародовали в среду и которую в итоге должны принять лидеры стран -…"
+  },
+  {
+    "title": "Диетолог Динуллина рассказала, как восстановить микрофлору после антибиотиков",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:43:06+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-pfo/dietolog-dinullina-rasskazala-kak-vosstanovit-mikrofloru-posle-antibiotikov.html",
+    "excerpt": "Восстановить микрофлору кишечника после курса лечения антибиотиками поможет не только прием пробиотиков, но и употребление продуктов, которые содержат полезные микроорганизмы, а также питательную среду для них. О том, как поддержать себя в этот…"
+  },
+  {
+    "title": "Россиян призвали заранее копить и инвестировать ради безбедной старости",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:43:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/rossiyan-prizvali-zaranee-kopit-i-investirovat-radi-bezbednoy-starosti/",
+    "excerpt": "Россиян призвали заранее копить и инвестировать ради безбедной старости"
+  },
+  {
+    "title": "Александр Шуваев назвал приоритетом ремонт дорог региона",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:42:19+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-cfo/aleksandr-shuvaev-nazval-prioritetom-remont-dorog-regiona.html",
+    "excerpt": "Губернатор Белгородской области Александр Шуваев сообщил о завершении ремонта дороги к хутору Холодное в Корочанском округе: работы были выполнены в рамках нацпроекта \"Инфраструктура для жизни\". Стоимость - более 39 миллионов рублей."
+  },
+  {
+    "title": "Датский депутат усомнился в прозрачности помощи Украине",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:42:05+00:00",
+    "link": "https://ria.ru/20261118/daniya-2132495709.html",
+    "excerpt": "Датский депутат усомнился в прозрачности помощи Украине"
+  },
+  {
+    "title": "Ушаков назвал заявление Клинтон о саммите в КНР броским",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:41:06+00:00",
+    "link": "https://ria.ru/20261118/ushakov-2132495537.html",
+    "excerpt": "Ушаков назвал заявление Клинтон о саммите в КНР броским"
+  },
+  {
+    "title": "В Каире прошла четвертая конференция \"Валдая\" о сотрудничестве России и Африки",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:40:36+00:00",
+    "link": "https://rg.ru/2026/11/18/dialog-na-nile.html",
+    "excerpt": "Четвертая Российско-африканская конференция Клуба \"Валдай\" прошла в среду в Каире. В этот раз эксперты из Алжира, Египта, Кот-д\"Ивуара, Нигерии, России, Сенегала, Танзании и ЮАР обсудили сотрудничество России и Африки в современном мире."
+  },
+  {
+    "title": "Новейшую китайскую колесную БМП VN1G покажут на оружейной выставке",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:40:17+00:00",
+    "link": "https://rg.ru/2026/11/18/novejshuiu-kitajskuiu-kolesnuiu-bmp-vn1g-pokazhut-na-oruzhejnoj-vystavke.html",
+    "excerpt": "Для поставок на экспорт в Китае разработана целая линейка различной колесной бронетехники. Так, на декабрьской выставке в Чжухае будет показана получившая обновления колесная БМП VN1G 8x8."
+  },
+  {
+    "title": "Подходы к осмыслению прошлого обсудят историки Союзного государства в Гомеле",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:39:52+00:00",
+    "link": "https://rg.ru/2026/11/18/kod-sobytij.html",
+    "excerpt": "Ключевые моменты отечественной истории Беларуси и России, а также методологические подходы к современному осмыслению общего прошлого наших государств обсудят историки Союзного государства. В Гомеле 25-26 ноября пройдет II Российско-белорусский…"
+  },
+  {
+    "title": "Россия демонстрирует рекордный объем экспорта удобрений в страны АТЭС",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:39:20+00:00",
+    "link": "https://ria.ru/20261118/rossija-2132495233.html",
+    "excerpt": "Россия демонстрирует рекордный объем экспорта удобрений в страны АТЭС"
+  },
+  {
+    "title": "Военные следователи изучают обстоятельства крушения Ан-12 в Кемерове",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:37:40+00:00",
+    "link": "https://rg.ru/2026/11/18/reg-sibfo/delo-tehniki.html",
+    "excerpt": "Расследованием ЧП с крушением военно-транспортного самолета Ан-12 занимаются военно-следственные органы СК России. Там по факту катастрофы возбуждено уголовное дело по статье 351 УК РФ - \"нарушение правил полетов или подготовки к ним\"."
+  },
+  {
+    "title": "\"Салават Юлаев\" одержал победу над \"Барысом\" в матче КХЛ",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:37:07+00:00",
+    "link": "https://ria.ru/20261118/julai-2132494827.html",
+    "excerpt": "\"Салават Юлаев\" одержал победу над \"Барысом\" в матче КХЛ"
+  },
+  {
+    "title": "Дюжев встал на защиту криминального кино",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:37:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/dyuzhev-vstal-na-zaschitu-kriminalnogo-kino/",
+    "excerpt": "Дюжев встал на защиту криминального кино"
+  },
+  {
+    "title": "Армения не стремится в НАТО, заявил Пашинян",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:36:42+00:00",
+    "link": "https://ria.ru/20261118/armenija-2132494662.html",
+    "excerpt": "Армения не стремится в НАТО, заявил Пашинян"
+  },
+  {
+    "title": "Москвичи бросились скупать квартиры в одном городе",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:36:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/moskvichi-brosilis-skupat-kvartiry-v-odnom-gorode/",
+    "excerpt": "Москвичи бросились скупать квартиры в одном городе"
+  },
+  {
+    "title": "Гарсия возглавил рейтинг самых дорогих вратарей мира",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:34:59+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/garsiya-vozglavil-reyting-samyh-dorogih-vratarey-mira/",
+    "excerpt": "Гарсия возглавил рейтинг самых дорогих вратарей мира"
+  },
+  {
+    "title": "Фрез вернулся в «Локомотив» до конца сезона",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:34:07+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/frez-vernulsya-v-lokomotiv-do-kontsa-sezona/",
+    "excerpt": "Фрез вернулся в «Локомотив» до конца сезона"
+  },
+  {
+    "title": "Европейская страна ввела специальные правила для российских лыжников",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:33:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/evropeyskaya-strana-vvela-spetsialnye-pravila-dlya-rossiyskih-lyzhnikov/",
+    "excerpt": "Европейская страна ввела специальные правила для российских лыжников"
+  },
+  {
+    "title": "Россиянам назвали критерий для определения целесообразности перехода на ГБО",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:33:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/rossiyanam-nazvali-kriteriy-dlya-opredeleniya-tselesoobraznosti-perehoda-na-gbo/",
+    "excerpt": "Россиянам назвали критерий для определения целесообразности перехода на ГБО"
+  },
+  {
+    "title": "В Кремле отказались раскрывать состав делегации на встрече Путина с Трампом и Си",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:32:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/v-kremle-otkazalis-raskryvat-sostav-delegatsii-na-vstreche-putina-s-trampom-i-si/",
+    "excerpt": "В Кремле отказались раскрывать состав делегации на встрече Путина с Трампом и Си"
+  },
+  {
+    "title": "Двух пассажиров арестовали в аэропорту Европы из-за их паспортов",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:32:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/dvuh-passazhirov-arestovali-v-aeroportu-evropy-iz-za-ih-pasportov/",
+    "excerpt": "Двух пассажиров арестовали в аэропорту Европы из-за их паспортов"
+  },
+  {
+    "title": "Момент встречи Путина, Трампа и Си Цзиньпина вызвал бурную реакцию в Сети",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:31:20+00:00",
+    "link": "https://ria.ru/20261118/vstrecha-2132493780.html",
+    "excerpt": "Момент встречи Путина, Трампа и Си Цзиньпина вызвал бурную реакцию в Сети"
+  },
+  {
+    "title": "Новый мост через реку Пушму открыли в Кировской области",
+    "source": "ria.ru",
+    "time": "2026-11-18T16:31:03+00:00",
+    "link": "https://ria.ru/20261118/most-2132493640.html",
+    "excerpt": "Новый мост через реку Пушму открыли в Кировской области"
+  },
+  {
+    "title": "Мужчинам назвали оптимальный возраст для первого обследования на рак простаты",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:31:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/muzhchinam-nazvali-optimalnyy-vozrast-dlya-pervogo-obsledovaniya-na-rak-prostaty/",
+    "excerpt": "Мужчинам назвали оптимальный возраст для первого обследования на рак простаты"
+  },
+  {
+    "title": "На юге Казахстана вандалы разрушили стелу 72 бойцам Красной армии",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:30:13+00:00",
+    "link": "https://rg.ru/2026/11/18/na-iuge-kazahstana-vandaly-razrushili-stelu-72-bojcam-krasnoj-armii.html",
+    "excerpt": "В казахстанском Таразе (Жамбылская область) практически полностью разрушена памятная стела на месте захоронения 72 бойцов Красной армии. Об этом 18 ноября сообщило генеральное консульство России в Алма-Ате своем Telegram-канале."
+  },
+  {
+    "title": "Всплыли жалобы на больницу после обвинения врача в убийстве россиянки в морге",
+    "source": "lenta.ru",
+    "time": "2026-11-18T16:30:00+00:00",
+    "link": "https://lenta.ru/news/2026/11/18/vsplyli-zhaloby-na-bolnitsu-posle-obvineniya-vracha-v-ubiystve-rossiyanki-v-morge/",
+    "excerpt": "Всплыли жалобы на больницу после обвинения врача в убийстве россиянки в морге"
+  },
+  {
+    "title": "Какой будет ВСМ Москва - Санкт-Петербург, обсудили на форуме \"Транспорт России\"",
+    "source": "rg.ru",
+    "time": "2026-11-18T16:29:30+00:00",
+    "link": "https://rg.ru/2026/11/18/strely-i-strelki.html",
+    "excerpt": "Строительство высокоскоростной железнодорожной магистрали (ВСМ) Москва - Санкт-Петербург выходит на новый опытно-технологический уровень. От экспериментов с отдельными системами будущего отечественного поезда разработчики переходят к комплексным…"
+  },
+  {
     "title": "Путин заявил о стремлении развивать связи с Таиландом",
     "source": "rg.ru",
     "time": "2026-11-18T16:28:14+00:00",
     "link": "https://rg.ru/2026/11/18/putin-zaiavil-o-stremlenii-razvivat-sviazi-s-tailandom.html",
-    "excerpt": "Владимир Путин провел переговоры с премьер-министром Таиланда Анутхином Чанвиракуном. Встреча состоялась в китайском Шэньчжэне, куда оба прибыли для участия в саммите АТЭС."
+    "excerpt": "Владимир Путин провел переговоры с премьер-министром Таиланда Анутхином Чанвиракуном. Встреча состоялась в китайском Шэньчжэне, куда оба прибыли для участия в саммите АТЭС ."
   },
   {
     "title": "Названы лучшие подарки ко Дню матери",
@@ -14,11 +637,11 @@
     "excerpt": "Названы лучшие подарки ко Дню матери"
   },
   {
-    "title": "В США задержали экс-депутата Саратовской облдумы",
+    "title": "Во Флориде задержали россиянина",
     "source": "ria.ru",
     "time": "2026-11-18T16:27:53+00:00",
     "link": "https://ria.ru/20261118/ssha-2132492755.html",
-    "excerpt": "В США задержали экс-депутата Саратовской облдумы"
+    "excerpt": "Во Флориде задержали россиянина"
   },
   {
     "title": "Российский Антикварный Салон откроется 25 ноября в Гостином дворе",
@@ -226,7 +849,7 @@
   {
     "title": "Li Auto объявила в России цены и старт продаж кроссовера L8 второго поколения",
     "source": "lenta.ru",
-    "time": "2026-11-18T16:02:05+00:00",
+    "time": "2026-11-18T16:02:00+00:00",
     "link": "https://lenta.ru/news/2026/11/18/li-auto-ob-yavila-v-rossii-tseny-i-start-prodazh-krossovera-l8-vtorogo-pokoleniya/",
     "excerpt": "Li Auto объявила в России цены и старт продаж кроссовера L8 второго поколения"
   },
@@ -322,11 +945,11 @@
     "excerpt": "Убивший россиянку в морге врач привлек внимание главы СК"
   },
   {
-    "title": "Стало известно об остром разговоре Путина и Си Цзиньпина",
+    "title": "Стало известно об острых вопросах на встрече Путина и Си Цзиньпина",
     "source": "lenta.ru",
     "time": "2026-11-18T15:55:00+00:00",
     "link": "https://lenta.ru/news/2026/11/18/stalo-izvestno-ob-ostrom-razgovore-putina-i-si-tszinpina/",
-    "excerpt": "Стало известно об остром разговоре Путина и Си Цзиньпина"
+    "excerpt": "Стало известно об острых вопросах на встрече Путина и Си Цзиньпина"
   },
   {
     "title": "Состав делегации на трехсторонние переговоры уже согласовали, заявил Ушаков",
@@ -357,7 +980,7 @@
     "excerpt": "Ушаков: Путин, Си Цзиньпин и Трамп сами определят продолжительность встречи"
   },
   {
-    "title": "Как Сталин заставил историков повиниться - детали дела 1931-го сохранили архивы",
+    "title": "Как Сталин заставил историков повиниться - раскрыты детали дела 1931-го",
     "source": "rg.ru",
     "time": "2026-11-18T15:53:06+00:00",
     "link": "https://rodina-history.ru/2026/11/18/kak-stalin-zastavil-istorikov-povinitsia-detali-dela-1931-go-sohranili-arhivy.html",
@@ -511,11 +1134,11 @@
     "excerpt": "Выявлен неожиданный фактор риска преждевременной смерти"
   },
   {
-    "title": "Эксперт: Если переработал произведение, созданое с помощью ИИ, ты - автор",
+    "title": "Эксперт: Если переработал произведение, созданное с помощью ИИ, ты - автор",
     "source": "rg.ru",
     "time": "2026-11-18T15:44:01+00:00",
     "link": "https://rg.ru/2026/11/18/reg-szfo/ekspert-esli-pererabotal-proizvedenie-sozdanoe-s-pomoshchiu-ii-ty-avtor.html",
-    "excerpt": "Искусственный интеллект врывается в нашу жизнь и - ставит перед нами новые вопросы. Один из актуальных: кто считается автором произведения, созданного с помощью ИИ, можно ли использовать его в коммерческих целях, кто понесет ответственность, если…"
+    "excerpt": "Искусственный интеллект врывается в нашу жизнь и ставит перед нами новые вопросы. Один из актуальных: кто считается автором произведения, созданного с помощью ИИ, можно ли использовать его в коммерческих целях, кто понесет ответственность, если…"
   },
   {
     "title": "В России предложили замену комнатам без связи для проведения экзаменов",
@@ -879,14 +1502,14 @@
     "source": "rg.ru",
     "time": "2026-11-18T15:14:07+00:00",
     "link": "https://rg.ru/2026/11/18/euro-ncap-protestiroval-10-novinok-avto-iz-knr-oboshli-iaponca-po-bezopasnosti.html",
-    "excerpt": "Euro NCAP обнародовала итоги новой серии краш-тестов, в которых участвовали десять популярных кроссоверов и электромобилей, представленных на европейском рынке. Девять моделей получили максимальный рейтинг - пять звезд: Skoda Peaq, Mercedes-Benz…"
+    "excerpt": "Euro NCAP обнародовал итоги новой серии краш-тестов, в которых участвовали десять популярных кроссоверов и электромобилей, представленных на европейском рынке. Девять моделей получили максимальный рейтинг - пять звезд: Skoda Peaq, Mercedes-Benz GLE,…"
   },
   {
     "title": "Еврокомиссия сообщила о создании офиса по санкциям ЕС",
     "source": "rg.ru",
     "time": "2026-11-18T15:13:10+00:00",
     "link": "https://rg.ru/2026/11/18/evrokomissiia-soobshchila-o-sozdanii-ofisa-po-sankciiam-es.html",
-    "excerpt": "Еврокомиссия (ЕК) учредила специального офиса по санкциям ЕС. Об этом информирует пресс-служба органа."
+    "excerpt": "Еврокомиссия (ЕК) учредила специальный офис по санкциям ЕС. Об этом информирует пресс-служба органа."
   },
   {
     "title": "Президент Польши подарил Трампу янтарное кресло",
@@ -956,7 +1579,7 @@
     "source": "rg.ru",
     "time": "2026-11-18T15:09:09+00:00",
     "link": "https://rg.ru/2026/11/18/variety-sostavila-spisok-vozmozhnyh-antagonistov-novogo-dzhejmsa-bonda.html",
-    "excerpt": "Роль агента 007 в новом фильме о Джеймсе Бонде исполнит Роберт Паттинсон. И ряд СМИ уже задумался, кому достанется роль его антагониста. Как пишет издание Variety, успех любого фильма о британском шпине напрямую зависит от того, кто пытается его…"
+    "excerpt": "Роль агента 007 в новом фильме о Джеймсе Бонде исполнит Роберт Паттинсон. И ряд СМИ уже задумался, кому достанется роль его антагониста. Как пишет издание Variety, успех любого фильма о британском шпионе напрямую зависит от того, кто пытается его…"
   },
   {
     "title": "Путин и Трамп не проводили разговор на приеме в среду, заявил Песков",
@@ -1372,7 +1995,7 @@
     "excerpt": "Российские горнолыжники откроют международный сезон в Китае"
   },
   {
-    "title": "Эксперт РГ объяснил, в чем феномен серии GTA",
+    "title": "Эксперт \"РГ\" объяснил, в чем феномен серии GTA",
     "source": "rg.ru",
     "time": "2026-11-18T14:37:10+00:00",
     "link": "https://rg.ru/2026/11/18/ekspert-rg-obiasnil-v-chem-fenomen-serii-gta.html",
@@ -3162,13 +3785,6 @@
     "time": "2026-11-18T12:49:49+00:00",
     "link": "https://www.euronews.com/2026/11/18/europe-cannot-sleep-through-the-ai-revolution-tech-leaders-urge-eu-to-take-action",
     "excerpt": "Tech leaders, including Yann LeCun, Nobel laureate Philippe Aghion and the CEOs of ElevenLabs and Lovable, call on the EU to secure a dedicated AI allocation in its 2028-2034 budget."
-  },
-  {
-    "title": "Lammy urges Burnham to take UK back into the EU",
-    "source": "feeds.bbci.co.uk",
-    "time": "2026-11-18T12:49:39+00:00",
-    "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
-    "excerpt": "The former deputy PM's intervention comes after Burnham reopened a debate over the UK's long-term future."
   },
   {
     "title": "Путин и президент Индонезии пообщались на приеме для лидеров АТЭС",
@@ -43706,320 +44322,5 @@
     "time": "2026-11-15T17:30:55+00:00",
     "link": "https://ria.ru/20261115/pvo-2131719079.html",
     "excerpt": "ПВО уничтожила еще десять беспилотников, летевших на Москву"
-  },
-  {
-    "title": "Из-за допуска россиян на турниры ИИХФ усомнилась в судье, которого выбрала сама",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:30:02+00:00",
-    "link": "https://rg.ru/2026/11/15/sebe-vopreki.html",
-    "excerpt": "Международная федерация хоккея (ИИХФ) оспорила решение Спортивного арбитражного суда (CAS), обязавшего допустить российские сборные к международным соревнованиям. По информации канадского TSN, федерация поставила под сомнение независимость двух из…"
-  },
-  {
-    "title": "В Омской области ликвидировали открытое горение на кровле автоцентра",
-    "source": "ria.ru",
-    "time": "2026-11-15T17:26:01+00:00",
-    "link": "https://ria.ru/20261115/gorenie-2131718968.html",
-    "excerpt": "В Омской области ликвидировали открытое горение на кровле автоцентра"
-  },
-  {
-    "title": "В США исключили саботаж в качестве причины сбоя в аэропортах",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:25:04+00:00",
-    "link": "https://rg.ru/2026/11/15/v-ssha-iskliuchili-sabotazh-v-kachestve-prichiny-sboia-v-aeroportah.html",
-    "excerpt": "Сбой в работе аэропортов в США не был результатом каких-либо злонамеренных действий или саботажа. Об этом в интервью телеканалу АВС заявил министр транспорта Шон Даффи."
-  },
-  {
-    "title": "Сотни человек в Берлине пришли за кебабом стоимостью один цент, пишут СМИ",
-    "source": "ria.ru",
-    "time": "2026-11-15T17:24:06+00:00",
-    "link": "https://ria.ru/20261115/berlin-2131718809.html",
-    "excerpt": "Сотни человек в Берлине пришли за кебабом стоимостью один цент, пишут СМИ"
-  },
-  {
-    "title": "Зеленский потребовал от США снять ограничения со Starshield",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:21:02+00:00",
-    "link": "https://rg.ru/2026/11/15/zelenskij-potreboval-ot-ssha-sniat-ogranicheniia-so-starshield.html",
-    "excerpt": "Владимир Зеленский потребовал от США и компании SpaceX снять ограничения с работы терминалов военной спутниковой связи Starshield. Соответствующий пост он опубликовал в своем Telegram-канале."
-  },
-  {
-    "title": "Популярная певица Аврил Лавин впервые стала мамой",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:20:03+00:00",
-    "link": "https://rg.ru/2026/11/15/populiarnaia-pevica-avril-lavin-vpervye-stala-mamoj.html",
-    "excerpt": "42-летняя канадская поп-рок певица Аврил Лавин впервые стала матерью - о радостном событии она сообщила на своей странице в соцсети, сопроводив публикацию двумя трогательными фотографиями с новорожденной дочкой."
-  },
-  {
-    "title": "В Днепропетровске повреждена транспортная инфраструктура после взрывов",
-    "source": "lenta.ru",
-    "time": "2026-11-15T17:19:48+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/v-dnepropetrovske-povrezhdena-transportnaya-infrastruktura-posle-vzryva/",
-    "excerpt": "В Днепропетровске повреждена транспортная инфраструктура после взрывов"
-  },
-  {
-    "title": "Полторы тысячи поправок поступило к \"бюджетному пакету\" в Госдуму",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:18:06+00:00",
-    "link": "https://rg.ru/2026/11/15/poltory-tysiachi-popravok-postupilo-k-biudzhetnomu-paketu-v-gosdumu.html",
-    "excerpt": "Комитет Госдумы по бюджету и налогам сегодня начал рассмотрение поправок к проекту федерального бюджета на 2027-2029 годы и законопроектов \"бюджетного пакета\". Две важные поправки внес спикер Госдумы Вячеслав Володин - по обращениям бизнеса,…"
-  },
-  {
-    "title": "19 slow worms mistaken for vipers rescued from water meter chamber",
-    "source": "euronews.com",
-    "time": "2026-11-15T17:16:31+00:00",
-    "link": "https://www.euronews.com/2026/11/15/19-slow-worms-mistaken-for-vipers-rescued-from-water-meter-chamber",
-    "excerpt": "A wildlife rehabilitation centre received an unusual report of venomous vipers sheltering in a water meter chamber, these however, turned out to be harmless slow worms."
-  },
-  {
-    "title": "Hundreds of thousands in Prague protest Czech government's public media funding plans",
-    "source": "euronews.com",
-    "time": "2026-11-15T17:16:09+00:00",
-    "link": "https://www.euronews.com/2026/11/15/hundreds-of-thousands-in-prague-protest-czech-governments-public-media-funding-plans",
-    "excerpt": "The crowd protested on Sunday afternoon against government plans affecting Czech public television and radio. It was the largest rally so far against the three-party government led by Prime Minister Andrej Babis."
-  },
-  {
-    "title": "UK: London's Santa School trains Father Christmas performers for 2026",
-    "source": "euronews.com",
-    "time": "2026-11-15T17:13:11+00:00",
-    "link": "https://www.euronews.com/video/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026",
-    "excerpt": "Father Christmas is heading back to school in London. Professional Santas are learning sign language, brushing up on toy trends and preparing for the difficult questions children might ask this Christmas."
-  },
-  {
-    "title": "В Великобритании возмутились словами Макрона об Украине",
-    "source": "lenta.ru",
-    "time": "2026-11-15T17:12:00+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/v-velikobritanii-vozmutilis-slovam-makrona-ob-ukraine/",
-    "excerpt": "В Великобритании возмутились словами Макрона об Украине"
-  },
-  {
-    "title": "Силы ПВО за день уничтожили 230 украинских беспилотников",
-    "source": "ria.ru",
-    "time": "2026-11-15T17:11:59+00:00",
-    "link": "https://ria.ru/20261115/pvo-2131718537.html",
-    "excerpt": "Силы ПВО за день уничтожили 230 украинских беспилотников"
-  },
-  {
-    "title": "Минфин объяснил отсроченный ввод льгот для трудноизвлекаемых запасов газа",
-    "source": "ria.ru",
-    "time": "2026-11-15T17:11:14+00:00",
-    "link": "https://ria.ru/20261115/minfin-2131718357.html",
-    "excerpt": "Минфин объяснил отсроченный ввод льгот для трудноизвлекаемых запасов газа"
-  },
-  {
-    "title": "В Тунисе представили культурное многообразие народов России",
-    "source": "rg.ru",
-    "time": "2026-11-15T17:11:03+00:00",
-    "link": "https://rg.ru/2026/11/15/v-tunise-predstavili-kulturnoe-mnogoobrazie-narodov-rossii.html",
-    "excerpt": "Праздник, посвященный Дню народного единства, прошел в зале Mad'Art Carthage в Тунисе. Русская балетная школа \"Матрешки\" и Молодежный клуб \"МиР\" (\"Мы и Россия\") при поддержке представительства Россотрудничества (Русский дом) подготовили программу…"
-  },
-  {
-    "title": "ПВО уничтожила четыре беспилотника, летевших на Москву",
-    "source": "ria.ru",
-    "time": "2026-11-15T17:06:55+00:00",
-    "link": "https://ria.ru/20261115/pvo-2131718226.html",
-    "excerpt": "ПВО уничтожила четыре беспилотника, летевших на Москву"
-  },
-  {
-    "title": "Газизов направит в РПЛ предложения по расширению лиги",
-    "source": "lenta.ru",
-    "time": "2026-11-15T17:05:57+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/gazizov-napravit-v-rpl-predlozheniya-po-rasshireniyu-ligi/",
-    "excerpt": "Газизов направит в РПЛ предложения по расширению лиги"
-  },
-  {
-    "title": "Лазарев выиграл Гран-при России в Омске",
-    "source": "lenta.ru",
-    "time": "2026-11-15T17:05:17+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/lazarev-vyigral-gran-pri-rossii-v-omske/",
-    "excerpt": "Лазарев выиграл Гран-при России в Омске"
-  },
-  {
-    "title": "Latest news bulletin | November 15th, 2026 – Evening",
-    "source": "euronews.com",
-    "time": "2026-11-15T17:00:27+00:00",
-    "link": "https://www.euronews.com/video/2026/11/15/latest-news-bulletin-november-15th-2026-evening",
-    "excerpt": "Catch up with the most important stories from around Europe and beyond this November 15th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel."
-  },
-  {
-    "title": "Минфин предложил исключить четыре металла из налога на сверхдоходы",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:58:04+00:00",
-    "link": "https://rg.ru/2026/11/15/reg-ufo/minfin-predlozhil-iskliuchit-chetyre-metalla-iz-naloga-na-sverhdohody.html",
-    "excerpt": "Минфин предложил не учитывать добычу марганца, хрома, вольфрама и молибдена при расчете налога на сверхдоходы. Об этом сообщил замминистра Алексей Сазанов на заседании комитета по бюджету и налогам."
-  },
-  {
-    "title": "32 человека пострадали при столкновении круизного лайнера с танкером в США",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:57:21+00:00",
-    "link": "https://rg.ru/2026/11/15/v-ssha-tanker-stolknulsia-s-kruiznym-lajnerom.html",
-    "excerpt": "В США на реке Миссисипи у Нового Орлеана танкер Atlantic Asphalt столкнулся с речным круизным судном American Heritage. На борту лайнера находились 129 человек."
-  },
-  {
-    "title": "Москвич отдал мошенникам более миллиона рублей после приглашения в домовой чат",
-    "source": "lenta.ru",
-    "time": "2026-11-15T16:56:55+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/moskvich-otdal-moshennikam-bolee-milliona-rubley-posle-priglasheniya-v-domovoy-chat/",
-    "excerpt": "Москвич отдал мошенникам более миллиона рублей после приглашения в домовой чат"
-  },
-  {
-    "title": "\"Никто не поддерживает\". В Киеве раскрыли правду о состоянии Зеленского",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:56:03+00:00",
-    "link": "https://ria.ru/20261115/zelenskiy-2131717454.html",
-    "excerpt": "\"Никто не поддерживает\". В Киеве раскрыли правду о состоянии Зеленского"
-  },
-  {
-    "title": "Советник Зеленского раскритиковал идею переправ через Днепр в Киеве",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:55:09+00:00",
-    "link": "https://rg.ru/2026/11/15/sovetnik-zelenskogo-raskritikoval-ideiu-pereprav-cherez-dnepr-v-kieve.html",
-    "excerpt": "Советник Владимира Зеленского по оборонным технологиям Сергей Бескрестнов с позывным Флеш раскрыл уязвимость альтернативных переправ в Киеве. Соответствующий пост появился в его Telegram-канале."
-  },
-  {
-    "title": "Минфин России отказался обложить банки дополнительным налогом",
-    "source": "lenta.ru",
-    "time": "2026-11-15T16:54:36+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/ni-v-koem-sluchae/",
-    "excerpt": "Минфин России отказался обложить банки дополнительным налогом"
-  },
-  {
-    "title": "Депутат Журова назвала странным запрет Финляндии на въезд российских спортсменов",
-    "source": "lenta.ru",
-    "time": "2026-11-15T16:52:00+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/zhurova-nazvala-strannym-zapret-finlyandii-na-v-ezd-rossiyskim-sportsmenam/",
-    "excerpt": "Депутат Журова назвала странным запрет Финляндии на въезд российских спортсменов"
-  },
-  {
-    "title": "Аэропорт Внуково обслуживает рейсы по согласованию",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:50:16+00:00",
-    "link": "https://ria.ru/20261115/vnukovo-2131716528.html",
-    "excerpt": "Аэропорт Внуково обслуживает рейсы по согласованию"
-  },
-  {
-    "title": "СМИ: под Новосибирском нашли загадочную впадину диаметром семь километров",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:48:16+00:00",
-    "link": "https://ria.ru/20261115/novosibirsk-2131716357.html",
-    "excerpt": "СМИ: под Новосибирском нашли загадочную впадину диаметром семь километров"
-  },
-  {
-    "title": "Минфин не поддерживает налог на сверхдоходы для банков и игорного бизнеса",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:43:37+00:00",
-    "link": "https://ria.ru/20261115/minfin-2131716035.html",
-    "excerpt": "Минфин не поддерживает налог на сверхдоходы для банков и игорного бизнеса"
-  },
-  {
-    "title": "Богатыри, Морозко и Чудо-Юдо. Почему российское кино снова ушло в сказку",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:43:00+00:00",
-    "link": "https://rg.ru/2026/11/15/bogatyri-morozko-i-chudo-iudo-pochemu-rossijskoe-kino-snova-ushlo-v-skazku.html",
-    "excerpt": "Российское кино, кажется, окончательно переехало в Тридевятое царство. Богатыри собираются спасать детей от гусей-лебедей, Морозко молодеет, Колобок становится героем собственного блокбастера, а Чудо-Юдо получает новую экранную биографию. 12 ноября…"
-  },
-  {
-    "title": "Australia and Philippines sign new defence pact amid South China Sea tensions",
-    "source": "euronews.com",
-    "time": "2026-11-15T16:42:39+00:00",
-    "link": "https://www.euronews.com/2026/11/15/australia-and-philippines-sign-new-defence-pact-amid-south-china-sea-tensions",
-    "excerpt": "The Philippines is building closer military ties with Australia, Japan and the US as tensions with China continue in the South China Sea. The partnerships cover joint exercises, surveillance equipment and closer coordination between their forces."
-  },
-  {
-    "title": "Megaspeed says alleged Chinese spy, Alice Huang, left company last year",
-    "source": "euronews.com",
-    "time": "2026-11-15T16:41:31+00:00",
-    "link": "https://www.euronews.com/2026/11/15/megaspeed-says-alleged-chinese-spy-alice-huang-left-company-last-year",
-    "excerpt": "The cloud computing company with ties to Nvidia, Megaspeed, has said that Alice Huang, an alleged Chinese spy, left the company in 2025. Huang is at the heart of an international corporate scandal and alleged to have had an affair with former Nvidia…"
-  },
-  {
-    "title": "Регионы готовятся к увеличению числа медведей-шатунов этой зимой",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:39:35+00:00",
-    "link": "https://rg.ru/2026/11/15/reg-urfo/ne-spitsia-kosolapym.html",
-    "excerpt": "Эксперты прогнозируют увеличение числа медведей-шатунов в зимний период. Основная причина - неурожай кедрового ореха и других естественных кормов."
-  },
-  {
-    "title": "Калужский аэропорт приостановил работу",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:38:28+00:00",
-    "link": "https://rg.ru/2026/11/15/reg-cfo/kaluzhskij-aeroport-priostanovil-rabotu.html",
-    "excerpt": "Аэропорт Калуги (Грабцево) временно приостановил работу. Об этом сообщили в Росавиации."
-  },
-  {
-    "title": "Всероссийское экономическое собрание объединило почти четыре тысячи участников",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:38:13+00:00",
-    "link": "https://rg.ru/2026/11/15/pod-devizom-poleznoe.html",
-    "excerpt": "Всероссийское экономическое собрание объединило почти четыре тысячи участников"
-  },
-  {
-    "title": "Непомнящий сыграл вничью с Карлсеном в первой партии на турнире Total Chess",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:37:26+00:00",
-    "link": "https://ria.ru/20261115/nepomnyaschiy-2131715514.html",
-    "excerpt": "Непомнящий сыграл вничью с Карлсеном в первой партии на турнире Total Chess"
-  },
-  {
-    "title": "\"Хватит уже!\" Заявление Джонсона о Путине вызвало гнев в Сети",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:37:11+00:00",
-    "link": "https://ria.ru/20261115/vypad-2131715354.html",
-    "excerpt": "\"Хватит уже!\" Заявление Джонсона о Путине вызвало гнев в Сети"
-  },
-  {
-    "title": "\"СВ\": Военные РФ уничтожили расчет боевиков батальона имени шейха Мансура",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:36:01+00:00",
-    "link": "https://rg.ru/2026/11/15/sv-voennye-rf-unichtozhili-raschet-boevikov-batalona-imeni-shejha-mansura.html",
-    "excerpt": "Российские военные уничтожили в ДНР расчет БПЛА из боевиков батальона имени шейха Мансура (признан террористическим, запрещен в РФ) Главного управления разведки Украины. Об этом сообщает связанный с группировкой войск \"Север\" Мах-канал \"Северный…"
-  },
-  {
-    "title": "Mysterious object in space: Could it be a Soviet probe missing for 40 years?",
-    "source": "euronews.com",
-    "time": "2026-11-15T16:34:33+00:00",
-    "link": "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years",
-    "excerpt": "The object, known as \"1998 KY26\", about 11 metres wide, is moving near Earth; yet something other than the Sun's or Earth's gravity seems to affect its path and speed."
-  },
-  {
-    "title": "В Махачкале человек пострадал от упавшего с крыши металлического листа",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:34:29+00:00",
-    "link": "https://rg.ru/2026/11/15/reg-skfo/v-mahachkale-chelovek-postradal-ot-upavshego-s-kryshi-metallicheskogo-lista.html",
-    "excerpt": "В столице Дагестана сильный ветер ломал деревья, сносил крыши и облицовки домов. На одной из улиц в результате сильного ветра металлический лист с крыши многоэтажного здания упал на прохожего. Его состояние не уточняется."
-  },
-  {
-    "title": "\"До сих пор не знает\". В Британии возмутились заявлением Макрона об Украине",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:33:28+00:00",
-    "link": "https://ria.ru/20261115/evropa-2131715190.html",
-    "excerpt": "\"До сих пор не знает\". В Британии возмутились заявлением Макрона об Украине"
-  },
-  {
-    "title": "Forbes: трое бывших и нынешних топ-менеджеров Nvidia больше не миллиардеры",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:33:06+00:00",
-    "link": "https://ria.ru/20261115/forbes-2131715015.html",
-    "excerpt": "Forbes: трое бывших и нынешних топ-менеджеров Nvidia больше не миллиардеры"
-  },
-  {
-    "title": "Папарацци заметили оголившую живот 44-летнюю актрису спустя полгода после родов",
-    "source": "lenta.ru",
-    "time": "2026-11-15T16:31:00+00:00",
-    "link": "https://lenta.ru/news/2026/11/15/paparatstsi-zametili-ogolivshuyu-zhivot-44-letnyuyu-aktrisu-spustya-polgoda-posle-rodov/",
-    "excerpt": "Папарацци заметили оголившую живот 44-летнюю актрису спустя полгода после родов"
-  },
-  {
-    "title": "Трамп обвинил администрацию Байдена в приостановке авиасообщения в США",
-    "source": "rg.ru",
-    "time": "2026-11-15T16:30:07+00:00",
-    "link": "https://rg.ru/2026/11/15/tramp-obvinil-administraciiu-bajdena-v-priostanovke-aviasoobshcheniia-v-ssha.html",
-    "excerpt": "В воскресенье Дональд Трамп обвинил администрацию демократа Джо Байдена, управлявшего страной между двумя его сроками, в приостановке воздушного сообщения в США, которое нарушило внутренние и международные перевозки."
-  },
-  {
-    "title": "В Курской области при атаке FPV-дрона пострадал мужчина",
-    "source": "ria.ru",
-    "time": "2026-11-15T16:29:42+00:00",
-    "link": "https://ria.ru/20261115/dron-2131714636.html",
-    "excerpt": "В Курской области при атаке FPV-дрона пострадал мужчина"
   }
 ]
